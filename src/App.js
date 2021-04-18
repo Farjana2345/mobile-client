@@ -20,7 +20,8 @@ import OrderList from './components/OrderList/OrderList';
 import Books from './components/Books/Books';
 import Navbar from './components/Home/Navbar/Navbar';
 import NotMatched from './components/NotMatched/NotMatched'
-
+import ServicesAll from './components/Home/ServiceAll/ServiceAll';
+import ReviewsAll from './components/Home/ReviewsAll/ReviewsAll';
 
 export const UserContext = createContext();
 function App() {
@@ -34,6 +35,12 @@ function App() {
         </Route>
         <Route path ="/home">
           <Home></Home>
+        </Route>
+        <Route path ="/services">
+         <ServicesAll></ServicesAll>
+        </Route>
+        <Route path ="/reviews">
+         <ReviewsAll></ReviewsAll>
         </Route>
         <Route path="/login">
           <Login></Login>

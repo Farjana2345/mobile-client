@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <div className="container">
             <div className="text text-center mt-5 pt-5">
-                <h2>OUR EXTREME SERVICES</h2>
+                <h2 style={{color:'#82b440'}}>OUR EXTREME SERVICES</h2>
                 <p>The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest</p>
             </div>
            <div className="row">

@@ -9,7 +9,7 @@ const Service = (props) => {
             <img style={{width:'350px'}} src={imageUrl} alt=""/>
             <h5 className="text-center">{title}</h5>
             <p className="text-center">Service charge: {price}</p>
-            <Link to={`/service/${_id}`}><button style={{width:'350px',padding:'10px 0',backgroundColor:'#82b440',border:'none'}}>Book Now</button></Link>
+            <Link to={`/service/${_id}`}><button style={{width:'350px',padding:'10px 0',backgroundColor:'#82b440',border:'none',color:'white'}}>Book Now</button></Link>
             </div>
             
         </div>

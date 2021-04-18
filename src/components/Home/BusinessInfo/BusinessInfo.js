@@ -12,7 +12,7 @@ const BusinessInfo = () => {
                     <p>The first mate and his Skipper too will do their best way of card</p>
                </div>
                <div className="col-md-2 mt-5 pt-4">
-                    <button style={{border:'none'}} className="p-2">REQUEST A QUOTE</button>
+                    <button style={{border:'none',color:'#82b440',fontWeight:'bold'}} className="p-2">REQUEST A QUOTE</button>
                </div>
             </div> 
         </div>
