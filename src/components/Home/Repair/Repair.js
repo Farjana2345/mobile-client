@@ -1,17 +1,19 @@
 import React from 'react';
 import repair from '../../../images/m3.jpg'
 import Repairs from './Repairs';
+import repair1 from '../../../images/m1.jpg';
+import repair2 from '../../../images/m2.jpg';
 const repairData=[
     {
         img:repair,
         name:"WATER DAMAGE"
     },
     {
-        img:repair,
+        img:repair1,
         name:"SCREEN BROKEN"
     },
     {
-        img:repair,
+        img:repair2,
         name:"SPEAKER FAILURE"
     }
 ]
